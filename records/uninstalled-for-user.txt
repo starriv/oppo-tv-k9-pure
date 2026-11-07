@@ -27,6 +27,7 @@ com.heytap.tv.gallery3d
 com.heytap.tv.heycast
 com.heytap.tv.heythings
 com.heytap.tv.imagewall
+com.heytap.tv.market
 com.heytap.tv.msgboard
 com.heytap.tv.oobe
 com.heytap.tv.pictorial

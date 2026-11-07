@@ -18,6 +18,12 @@
 adb shell cmd package install-existing com.heytap.tv.systemupgrade
 ```
 
+### 自带应用商店
+
+```sh
+adb shell cmd package install-existing com.heytap.tv.market
+```
+
 ### 原桌面
 
 ```sh

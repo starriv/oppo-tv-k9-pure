@@ -146,7 +146,7 @@ protected() {
   case "$1" in
     android|android.ext.*|com.android.*|com.mediatek.*) return 0 ;;
     com.heytap.tv.remote|com.heytap.tv.launcher|com.heytap.network|com.heytap.rom.service|\
-    com.heytap.tvapiservice|com.heytap.msp.tv|com.heytap.tv.livetv|com.heytap.tv.market|\
+    com.heytap.tvapiservice|com.heytap.msp.tv|com.heytap.tv.livetv|\
     com.heytap.tv.search|com.heytap.tv.filebrowser|com.heytap.tv.videoplayer|\
     com.heytap.tv.musicplayer|com.sohu.inputmethod.sogou.tv) return 0 ;;
   esac

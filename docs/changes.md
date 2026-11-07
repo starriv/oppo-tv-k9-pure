@@ -10,10 +10,12 @@
 | Tier 2 | 投屏/互联/语音/智能家居/未用影视/相册相机/OTA | 29 |
 | Tier 3 | 手机遥控服务、AI 引擎、账号服务（其中遥控服务实测后**恢复**） | 4 |
 | 追加 | 升级推送、OPPO 互联、未来电视登录 | 3 |
-| **最终** | **对用户卸载 49 个** + 停用 2 个（原桌面、`com.heytap.mcs`） | 51 |
+| 追加（后续） | 自带应用商店（固件停更） | 1 |
+| **最终** | **对用户卸载 50 个** + 停用 2 个（原桌面、`com.heytap.mcs`） | 52 |
 
 保留原则：
 - **系统更新菜单会崩**（`com.heytap.tv.systemupgrade` 被卸载），已确认可接受
+- **自带应用商店已卸载**（`com.heytap.tv.market` 1.3.1，固件停更），改用 Aurora Store
 - **原桌面只停用不卸载**，作为 Aerial 的兜底
 - `com.heytap.mcs` 是 system uid 常驻服务，卸载也杀不掉
 
@@ -21,9 +23,11 @@
 
 | 指标 | 改造前 | 改造后 |
 |---|---|---|
-| 已安装包 | 103 | **59** |
+| 已安装包 | 103 | **58** |
 | `/data` 已用 | 2.3 GB | **1.3 GB**（释放 990 MB） |
 | MemAvailable | 568 MB | **924 MB** |
+
+> 后续又卸载了自带应用商店 `com.heytap.tv.market`（1.3.1，2023 年后停更），已安装包从 59 降到 58。
 
 ## 2. 桌面替换：Aerial 1.87
 
@@ -60,6 +64,8 @@ ColorOS 只允许 3 个包名声明 HOME，因此需要改包名：
 - 来源：F-Droid 官方仓库（`com.aurora.store_76.apk`）
 - 匿名会话验证通过，可浏览/下载 Play 应用
 - 依赖 FlClash（Google 域名需走代理），未开代理时连不上
+- OPPO 自带应用商店（`com.heytap.tv.market` 1.3.1）已**卸载**：固件停更后商店无可用内容，保留也无意义；
+  需要时 `adb shell cmd package install-existing com.heytap.tv.market` 恢复
 
 ## 5. 其他应用
 

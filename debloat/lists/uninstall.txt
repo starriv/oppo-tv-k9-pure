@@ -66,6 +66,9 @@ com.tencent.wxservice
 com.oneplus.tv.android.account
 tv.newtv.loginservice
 
+# ---- 应用商店（固件已停更，改用 Aurora Store）----
+com.heytap.tv.market             # OPPO 自带应用商店 1.3.1（2023 年后无更新）
+
 # ---- 未使用的影视预装（按需保留，用得到就从本文件删掉）----
 com.xiaodianshi.tv.yst           # 云视听小电视（B 站官方 TV 版）
 com.gitvvideo.oppo               # 银河奇异果（爱奇艺）
