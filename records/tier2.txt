@@ -1,0 +1,37 @@
+# Tier 2: 按用户确认停用（保留 com.ktcp.video 用户自装腾讯视频）
+# --- 影视预装 ---
+com.xiaodianshi.tv.yst
+com.gitvvideo.oppo
+com.mgtv.tv
+com.cibn.tv
+# --- 投屏 / 互联 / 配件 ---
+com.heytap.tv.heycast
+com.hpplay.happyplay.aw
+com.heytap.iot.castservice
+com.heytap.optvmiracastservice
+com.heytap.iot.synergy
+com.heytap.iot.relayplayer
+com.heytap.ars.sink
+com.heytap.optvbtlink
+com.heytap.accessory
+com.heytap.tv.btspeaker
+# --- 语音助手 ---
+com.heytap.speechassist.tv
+com.heytap.tv.assistant.oppo
+# --- 智能家居 ---
+com.heytap.smarthome.tv
+com.heytap.tv.heythings
+com.heytap.tv.deviceinspect
+# --- 相册 / 相机 / 留言板 / 天气 / 日历 / 图库 / 画报 ---
+com.heytap.tv.calendar
+com.heytap.tv.camera
+com.heytap.tv.cloudgallery
+com.heytap.tv.gallery3d
+com.heytap.tv.weather
+com.heytap.tv.msgboard
+com.heytap.tv.imagewall
+# --- 视频通话 ---
+com.heytap.tv.videocall
+com.tencent.wxservice
+# --- 系统自动更新 ---
+com.heytap.tv.systemupgrade

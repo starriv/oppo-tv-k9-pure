@@ -1,0 +1,5 @@
+# Tier 3: 用户确认继续停用
+com.heytap.tv.remote              # 手机遥控/互联服务 109MB
+com.optv.aiengine                 # AI 引擎 92MB
+com.heytap.tv.aicaption           # AI 字幕（上面引擎的 UI 组件，配套关）
+com.oneplus.tv.android.account    # OPPO 账号服务 88MB

@@ -1,0 +1,7 @@
+# 大文件 APK 不入库（用 tools/fetch-apks.sh 下载）
+apks/*.apk
+# 运行时产物
+debloat/backups/
+records/*.log
+# 系统垃圾
+.DS_Store

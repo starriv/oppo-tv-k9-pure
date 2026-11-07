@@ -1,0 +1,17 @@
+# Tier 1: 广告 / 推送 / 统计 / 诊断 / 工厂菜单 —— 无功能损失
+com.opos.ott                     # OPPO 广告
+com.heytap.mcs                   # HeyTap 推送服务
+com.heytap.feedback              # 用户反馈
+com.heytap.tv.remotediagnosing   # 远程诊断
+com.oplus.crashbox               # 崩溃日志上传
+com.heytap.tv.oobe               # 首次开机向导（已完成设置）
+com.heytap.tv.pictorial          # 乐划锁屏/画报广告
+# 工厂/工程菜单：只停用，绝不启动
+com.cvte.fac.menu
+com.cvte.factory.at
+com.cvte.factory.service
+com.cvte.license.at
+com.gaochuang.factory.at
+com.konka.factory.at
+mediatek.factorymenu.ui
+tpv.factorymenu.ui

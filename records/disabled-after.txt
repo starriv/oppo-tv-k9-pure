@@ -1,0 +1,2 @@
+com.heytap.mcs
+com.heytap.tv.launcher

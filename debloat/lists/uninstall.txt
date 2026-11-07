@@ -1,0 +1,73 @@
+# ============================================================
+# 对当前用户卸载（pm uninstall --user 0）
+# 适用：OPPO K9 系列 / ColorOS TV 2.x（Android 9）
+# 实测机型：OPPOCNM632（OPPO 智能电视 K9 55 英寸 / A55U1B01）
+# 效果：包从应用列表、权限列表、"安装未知应用"中消失；可完整恢复
+# ============================================================
+
+# ---- 广告 / 推送 / 统计 / 诊断 ----
+com.opos.ott                     # OPPO 广告
+com.heytap.tv.pictorial          # 乐划锁屏 / 画报推广
+com.heytap.tv.imagewall          # 照片墙（画报）
+com.heytap.tv.remotediagnosing   # 远程诊断
+com.heytap.feedback              # 用户反馈
+com.oplus.crashbox               # 崩溃日志上传
+com.heytap.tv.oobe               # 首次开机向导（已完成设置）
+com.heytap.tv.systemupgrade      # 系统自动更新
+com.heytap.oprcupgradeservice    # 升级推送服务
+com.heytap.tv.aicaption          # AI 字幕
+com.optv.aiengine                # AI 引擎
+
+# ---- 工厂 / 工程菜单（只停用不启动，这里直接卸载更干净）----
+com.cvte.fac.menu
+com.cvte.factory.at
+com.cvte.factory.service
+com.cvte.license.at
+com.gaochuang.factory.at
+com.konka.factory.at
+mediatek.factorymenu.ui
+tpv.factorymenu.ui
+
+# ---- 投屏 / 互联 / 配件 ----
+com.heytap.tv.heycast
+com.hpplay.happyplay.aw          # 乐播投屏
+com.heytap.iot.castservice
+com.heytap.optvmiracastservice
+com.heytap.iot.synergy
+com.heytap.iot.relayplayer
+com.heytap.ars.sink
+com.heytap.optvbtlink
+com.heytap.accessory
+com.heytap.tv.btspeaker
+com.oplus.onet                   # OPPO 互联
+
+# ---- 语音助手 ----
+com.heytap.speechassist.tv
+com.heytap.tv.assistant.oppo
+
+# ---- 智能家居 ----
+com.heytap.smarthome.tv
+com.heytap.tv.heythings
+com.heytap.tv.deviceinspect
+
+# ---- 相册 / 相机 / 留言板 / 天气 / 日历 / 图库 ----
+com.heytap.tv.calendar
+com.heytap.tv.camera
+com.heytap.tv.cloudgallery
+com.heytap.tv.gallery3d
+com.heytap.tv.weather
+com.heytap.tv.msgboard
+
+# ---- 视频通话 ----
+com.heytap.tv.videocall
+com.tencent.wxservice
+
+# ---- 账号 / 第三方登录 ----
+com.oneplus.tv.android.account
+tv.newtv.loginservice
+
+# ---- 未使用的影视预装（按需保留，用得到就从本文件删掉）----
+com.xiaodianshi.tv.yst           # 云视听小电视（B 站官方 TV 版）
+com.gitvvideo.oppo               # 银河奇异果（爱奇艺）
+com.mgtv.tv                      # 芒果 TV
+com.cibn.tv                      # 未来电视

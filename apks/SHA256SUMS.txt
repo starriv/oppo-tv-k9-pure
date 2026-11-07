@@ -1,0 +1,4 @@
+fd9c75d90d0f4a7c132b9b4a5a2cf1992a45e03b8d8ff988b7dcfbc0db2c4d11  AuroraStore-4.8.4-fdroid.apk
+180613242be75fb1cf4f80dd0900f90a4aa59ee66eb6e02ed5806d5d6e07513a  BiliTV-v1.2.2-v7a.apk
+9d3b19911efdfef303a33229a4caefedfc58d99992d7d23d373d549c36451645  FlClash-0.9.3-android-armeabi-v7a.apk
+53fca64114776cbff006f59e44410cbe19db42163e3c0cfd5d71711eadf256cf  aerial-oppo-signed.apk
